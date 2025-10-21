@@ -4,4 +4,18 @@ h1{
         font-family: "Playwrite DE SAS", cursive;
         font-style: italic;
         font-weight: 300;
+        text-decoration: underline;
+        text-transform: uppercase;
+        text-align: center;
     }
+p {
+    color: rgb(71, 71, 164);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body {
+    /* background-color: rgb(232, 199, 199); */
+    background-image: url(texture.png);
+    /* background-repeat:;*/
+    /* background-position:;*/
+    /* background-size:; (cover, contain)*/ 
+}
