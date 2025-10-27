@@ -24,31 +24,20 @@ p {
     text-align: center;
 }
 
-    /* error */
-.a {
+.instagram {
     color: white;
     text-decoration: none;
 }
-
-.a {
-    color: red;
-}
-
-.a:hover {
+.instagram:hover {
     color: red;
     text-decoration: underline;
 }
-    /* error */
 
-.FB {
-  background-color: white;
-}
-.FB {
+.facebook {
     text-decoration: none;
     font-weight: 800;
+}
+.facebook:hover{
+    color: white;
     background-color: darkblue;
 }
-.FB {
-  color: white;
-  background-color: darkblue;
-} 
