@@ -1,0 +1,47 @@
+body {
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 { 
+    font-family: "Comic Relief", system-ui;
+    color: darkblue;
+    font-size: 60px;
+    text-align: center;
+}
+
+h4 {
+    font-style: italic;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+.p {
+    text-align: center;
+    color:orange;
+}
+
+p {
+    text-align: center;
+}
+
+.instagram {
+    color: red;
+    text-decoration: none;
+}
+.instagram:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.facebook {
+    text-decoration: none;
+    font-weight: 800;
+}
+.facebook:hover{
+    color: white;
+    background-color: darkblue;
+}
