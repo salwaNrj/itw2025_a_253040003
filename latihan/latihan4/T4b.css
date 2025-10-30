@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(to right, #9796f0, #fbc7d4); 
+}
+
+.RVlogo {
+    width: 170px;
+    transform: translateX(25px);
+}
+
+nav {
+    background:linear-gradient(to right, #7b79f1, hsl(345, 72%, 79%));
+    display: flex;
+    border-radius: 40px; 
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: "Playwrite DE SAS", cursive;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 5px;
+}
+nav ul li a:hover {
+    color: #36349e;
+}
+                            /* ----------------HERO IMG---------------- */
+
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color:#fff;
+    margin-top: 45px;
+}
+
+.container .hero {
+    background-image: url(img/RVhero.png);
+    background-size: cover;
+    background-position: 0 -82px;
+    height: 460px; 
+}
+
+.container {
+    background:linear-gradient(to right, #e4d7ec, hsl(345, 52%, 83%));
+    border-radius: 10px;
+}
+
+.RV { 
+    width: 300px;
+}
+
+.STARS {
+    width: 300px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    float: right;
+}
+                    /* ------------------------------ */
+/* * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.card-group {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    width: 225px;
+    height: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    position:  relative;
+    transition: 0.5ms;
+    cursor: pointer;
+}
+.card:hover,
+.card:hover img{
+    transform: scale(1.1);
+}
+.card:hover .layer {
+    opacity: 1;
+}
+.card:hover .info {
+    bottom: 0;
+    opacity: 1;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.card .layer{
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75% ;
+    opacity: 0;
+    transition: o.3s;
+}
+
+.card .info {
+    position: absolute;
+    bottom: -60%;
+    padding: 15px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.info p {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+h1, p {
+    color: white;
+}
