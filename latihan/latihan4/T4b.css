@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #9796f0, #fbc7d4); 
+    background: linear-gradient(to right, #bdbcff, #fbc7d4); 
 }
 
 .RVlogo {
@@ -12,7 +12,7 @@ nav {
     display: flex;
     border-radius: 40px; 
     justify-content: space-between;
-    padding: 1rem 3rem;
+    padding: 0rem 5rem;
 }
 
 nav ul {
@@ -75,6 +75,8 @@ nav ul li a:hover {
 .card-group {
     display: flex;
     gap: 25px;
+    padding: 250px;
+    margin-top: -255px;
 }
 
 .card {
