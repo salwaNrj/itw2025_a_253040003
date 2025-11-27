@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-size: 18px;
+    color: #989696;
+    text-decoration: none;
+}
+.logo {
+    cursor: pointer;
+    width: 150px;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    /* position: fixed; */
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    box-shadow: 1px 1px 10px #7e959c;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.navbar li a {
+    transition: all .3s ease 0s;
+}
+.navbar li a:hover{
+    color: black;
+}
+    
+        /* G A L L E R Y */
+
+.hero li img {
+    width: 100%;
+    height: 100%;
+}
+.hero li p {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin-top: -320px;
+    opacity: 0;
+    animation: fade .5s .5s forwards;
+}
+
+.about img {
+    margin: 300px 0px 0px 115px;
+    width: 300px;
+    filter: drop-shadow(1px 1px 18px rgb(169, 169, 169));
+    box-shadow: 1px 1px 15px black;
+}
+
+.about {
+    margin: 0px 10px 0px 10px;
+}
+.about h2 {
+    margin-top: -250px;
+    margin-left: 455px;
+    font-size: 35px;
+    color: black;
+}
+
+.about p {
+    margin: 20px 120px 70px 460px;
+    text-align: justify;
+    color: black;
+}   
+/* ---------------- */
+.ternak {
+    width: 100%;
+    margin-top: 130px;
+}
+.gallery {
+    display: flex;
+    margin-top: -30px;
+}
+
+.foto {
+    width: 300px;
+    height: 420px;
+    margin: 160px 0px 40px 70px;
+    overflow: hidden;
+    position:  relative;
+    transition: 0.5ms;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 15px rgb(169, 169, 169));
+    box-shadow: 1px 1px 10px black;
+    
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.foto .layer{
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75% ;
+    opacity: 0;
+    transition: o.3s;
+}
+
+.foto .info {
+    position: absolute;
+    bottom: -60%;
+    padding: 15px;
+    opacity:0;
+    transition: 0.5s;
+}
+
+.info p {
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+.info h1, p {
+    color: white;
+    text-align: justify;
+}
+
+.foto:hover,
+.foto   :hover img{
+    transform: scale(1.1);
+}
+.foto:hover .layer {
+    opacity: 1;
+}
+.foto:hover .info {
+    bottom: 0;
+    opacity: 1;
+}
+
+.footer {
+    background-color: GREY;
+    /* padding:15px; */
+    border: 5px solid white;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+    margin-top: 100px;
+    
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* --------------- */
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
